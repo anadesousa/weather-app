@@ -1,0 +1,82 @@
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  border: 1px solid #e7eaf6;
+  border-radius: 20px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/098/585/original/sky.jpg?1696091969");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Quicksand;
+}
+
+.search-bar {
+  padding: 8px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #cddce3;
+  width: 40%;
+}
+
+.search-button {
+  padding: 6px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #113f67;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+  color: #113f67;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.weather-icon {
+  font-size: 25px;
+}
+
+.max-temperature {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.min-temperature {
+  font-size: 14px;
+}
+
+.conditions {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  font-size: 9px;
+  margin-top: 20px;
+}
+
+a {
+  font-weight: bold;
+  color: #113f67;
+}
