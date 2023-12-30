@@ -41,8 +41,9 @@ p {
   text-align: center;
 }
 
-.weather-icon {
-  font-size: 25px;
+.weather-app-icon {
+  display: block;
+  margin: 0px auto;
 }
 
 .max-temperature {

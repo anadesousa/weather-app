@@ -5,12 +5,14 @@ function refreshWeather(response) {
   let windElement = document.querySelector("#wind-speed");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let icon = document.querySelector("#weather-icon");
 
   newCity.innerHTML = response.data.city;
   timeElement.innerHTML = formatDate(date);
   maxTemperature.innerHTML = `${Math.round(
     response.data.temperature.current
   )}°C`;
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windElement.innerHTML = `${response.data.wind.speed}km/h`;
 }
@@ -53,5 +55,3 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Porto");
-
-//date
