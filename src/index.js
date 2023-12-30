@@ -1,8 +1,15 @@
 function refreshWeather(response) {
   let maxTemperature = document.querySelector("#max-temperature");
-  maxTemperature.innerHTML = Math.round(response.data.temperature.current);
   let newCity = document.querySelector("h1");
+  let humidityElement = document.querySelector("#humidity");
+  let windElement = document.querySelector("#wind-speed");
+
+  maxTemperature.innerHTML = `${Math.round(
+    response.data.temperature.current
+  )}°C`;
   newCity.innerHTML = response.data.city;
+  humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+  windElement.innerHTML = `${response.data.wind.speed}km/h`;
 }
 
 function searchCity(city) {
@@ -22,3 +29,5 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Porto");
+
+//date
