@@ -79,3 +79,25 @@ a {
   font-weight: bold;
   color: #113f67;
 }
+
+.weather-forecast {
+  margin: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-date {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.forecast-temperature-max {
+  font-size: 12px;
+  font-weight: bold;
+  color: #113f67;
+}
+
+.forecast-temperature-min {
+  font-size: 10px;
+}
