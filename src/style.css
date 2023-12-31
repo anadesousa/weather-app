@@ -1,7 +1,7 @@
 .container {
   margin: 20px auto;
   padding: 20px;
-  width: 50%;
+  width: 40%;
   border: 1px solid #e7eaf6;
   border-radius: 20px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/098/585/original/sky.jpg?1696091969");
@@ -11,15 +11,15 @@
 }
 
 .search-bar {
-  padding: 8px;
+  padding: 15px;
   border-radius: 8px;
   border-style: none;
   background-color: #cddce3;
-  width: 40%;
+  width: 80%;
 }
 
 .search-button {
-  padding: 5px;
+  padding: 15px 30px;
   border-radius: 8px;
   border-style: none;
   background-color: white;
@@ -29,26 +29,28 @@ h1 {
   text-align: center;
   color: #113f67;
   font-size: 35px;
+  margin-bottom: 5px;
 }
 
 h2 {
   text-align: center;
   color: #113f67;
   font-size: 20px;
+  margin: 10px;
 }
 
-p {
-  text-align: center;
+.temperature-container {
+  display: flex;
+  justify-content: center;
 }
 
 .weather-app-icon {
-  display: block;
-  margin: 0px auto;
+  font-size: 20px;
 }
 
 .max-temperature {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 40px;
+  padding-top: 20px;
 }
 
 .conditions {
