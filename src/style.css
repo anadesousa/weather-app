@@ -88,16 +88,20 @@ a {
 }
 
 .forecast-date {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .forecast-temperature-max {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: #113f67;
 }
 
 .forecast-temperature-min {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.forecast-icon {
+  width: 100%;
 }
